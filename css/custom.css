@@ -2,12 +2,12 @@ html,body{height:100%}
 body{margin:0}
 #wrap{min-height:100%}
 #container{padding-bottom:1em}
-#footer{background-color:#F8E546; margin-top:-1em;height:9em }
+#footer{background-color:#D3ECD6; margin-top:-1em;height:9em }
 
 
 .navbar-default {
-    background-color: #F8E546;
-    border-color: #F8E546;
+    background-color: #D3ECD6;
+    border-color: #D3ECD6;
 }
 
 .navbar-default .navbar-brand {
@@ -19,18 +19,19 @@ body{margin:0}
 }
 
 .navbar-default .navbar-nav .dropdown-menu  { 
-  background-color: #EED92A;
+  background-color: #D3ECD6;
+  color:#fff;
 }
 .navbar-default .navbar-nav .dropdown-menu>li>a  { 
   color: #5A5A59;
 }
 .navbar-default .navbar-nav .dropdown-menu>li>a:hover,.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  { 
-  color: #F8E546;
+  color: #5A5A59;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #5A5A59;
-    background-color: #EED92A;
+    background-color: #D3ECD6;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -38,14 +39,10 @@ body{margin:0}
    filter:none;
 }
 
-.carousel-indicators li {
-    display: inline-block;
-    background-color: #F1CA10;  
-    border-color:#F1CA10; 
-}
-.carousel-indicators .active {
-    background-color: #ffff99;
-    border-color:#ffff99;
+.glyphicon {
+    font-size: 30px;
+    line-height: 50px;
+    color:#234731;
 }
 
 
